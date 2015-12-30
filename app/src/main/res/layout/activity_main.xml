@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jerometian.learning.RoundProgressBar
+        android:id="@+id/barStrokeText"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/gray"
+        app:frontColor="@color/blue"
+        app:mode="STROKE_TEXT"
+        app:textColor="@color/red"
+        app:textSize="18sp"
+        />
+    <com.jerometian.learning.RoundProgressBar
+        android:id="@+id/barStroke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        app:backColor="@color/gray"
+        app:frontColor="@color/blue"
+        app:mode="STROKE"
+        app:textColor="@color/red"
+        app:textSize="15sp"
+        />
+
+    <com.jerometian.learning.RoundProgressBar
+        android:id="@+id/barFill"
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="100dp"
+        app:backColor="@color/gray_light"
+        app:frontColor="@color/blue"
+        app:mode="FILL"
+        app:textColor="@color/red"
+        app:textSize="15sp"
+        />
+</LinearLayout>
